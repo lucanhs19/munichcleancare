@@ -37,13 +37,14 @@ export function Header() {
       <header className="sticky top-0 z-50 border-b border-white/10 bg-background/80 backdrop-blur">
         <Container className="flex h-16 items-center justify-between gap-3">
           <a href="#top" className="flex items-center gap-3">
-            <span className="relative h-9 w-9 overflow-hidden rounded-xl ring-1 ring-border bg-transparent">
+            <span className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-xl ring-1 ring-border bg-transparent">
               <Image
                 src="/logo-cutout.png"
                 alt={`${site.name} Logo`}
-                fill
+                width={36}
+                height={36}
                 sizes="36px"
-                className="object-contain p-1"
+                className="max-h-full max-w-full object-contain p-1"
                 priority
               />
             </span>

@@ -112,7 +112,9 @@ export default function Home() {
                     width={560}
                     height={220}
                     priority
-                    className="h-auto w-[min(560px,92%)] lg:w-[560px] lg:-translate-y-1 drop-shadow-[0_18px_30px_rgba(0,0,0,0.65)]"
+                    sizes="(max-width: 1024px) min(92vw, 560px), 560px"
+                    className="h-auto w-auto max-w-[min(560px,92%)] lg:max-w-[560px] lg:-translate-y-1 drop-shadow-[0_18px_30px_rgba(0,0,0,0.65)]"
+                    style={{ width: "auto", height: "auto" }}
                   />
                 </div>
               </div>
