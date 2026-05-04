@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "MunichCleanCare | Mobile Innenraum-Aufbereitung in München",
   description:
     "Mobile Auto-Innenraumaufbereitung in München & Umgebung. Transparente Preise, flexible Termine und hochwertige Ergebnisse – bequem bei dir vor Ort.",
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }],
+    apple: [{ url: "/apple-icon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
