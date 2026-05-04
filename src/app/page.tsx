@@ -257,8 +257,8 @@ export default function Home() {
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                { src: "/images/nachher-1.png", label: "Vorher" },
-                { src: "/images/vorher-1.png", label: "Nachher" },
+                { src: "/images/vorher-1.png", label: "Vorher" },
+                { src: "/images/nachher-1.png", label: "Nachher" },
                 { src: "/images/vorher-2.png", label: "Vorher" },
                 { src: "/images/nachher-2.png", label: "Nachher" },
               ].map((img) => (
