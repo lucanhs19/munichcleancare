@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070708"/>
+      <stop offset="1" stop-color="#14141b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.22" r="0.85">
+      <stop offset="0" stop-color="#d6b47a" stop-opacity="0.30"/>
+      <stop offset="0.6" stop-color="#d6b47a" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#d6b47a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <g opacity="0.18" stroke="#ffffff">
+    <path d="M0 640H1200"/>
+    <path d="M0 560H1200"/>
+    <path d="M200 0V900" opacity="0.6"/>
+    <path d="M420 0V900" opacity="0.4"/>
+    <path d="M640 0V900" opacity="0.25"/>
+  </g>
+  <g transform="translate(120,160)">
+    <path d="M210 560c-15-150 20-290 130-350 110-60 250-40 320 55 58 78 62 205 36 315-24 98-88 158-180 176-124 25-280-22-306-196z" fill="#0b0b10" stroke="#ffffff" stroke-opacity="0.10"/>
+    <path d="M190 320c135-88 300-60 395 48" fill="none" stroke="#d6b47a" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+    <path d="M305 515c52 28 152 56 260 46" fill="none" stroke="#f1e6d1" stroke-width="8" stroke-linecap="round" opacity="0.42"/>
+    <path d="M120 610c220 120 510 90 705-65" fill="none" stroke="#d6b47a" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  </g>
+  <text x="60" y="850" fill="#f3f4f6" font-family="ui-sans-serif, system-ui" font-size="44" letter-spacing="2">NACHHER</text>
+  <text x="60" y="885" fill="#a1a1aa" font-family="ui-sans-serif, system-ui" font-size="22">Platzhalter " austauschbar</text>
+</svg>
+
