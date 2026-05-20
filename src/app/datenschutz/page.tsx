@@ -39,9 +39,12 @@ export default function DatenschutzPage() {
               Telefon: {site.phoneDisplay}
               <br />
               E-Mail:{" "}
-              <span className="text-foreground">
-                [bitte ergänzen, z. B. info@munichcleancare.de]
-              </span>
+              <a
+                className="text-foreground hover:underline"
+                href={`mailto:${site.email}`}
+              >
+                {site.email}
+              </a>
             </p>
           </div>
 
@@ -66,8 +69,9 @@ export default function DatenschutzPage() {
               Hosting & Server-Logfiles
             </p>
             <p>
-              Beim Aufruf unserer Webseite werden durch den Hostinganbieter
-              automatisch Informationen in sogenannten Server-Logfiles erfasst.
+              Beim Aufruf unserer Webseite werden durch unseren Hostinganbieter
+              (Vercel) automatisch Informationen in sogenannten Server-Logfiles
+              erfasst.
               Das können insbesondere sein: IP-Adresse (ggf. gekürzt), Datum und
               Uhrzeit der Anfrage, aufgerufene Seite/Datei, Referrer-URL,
               Browsertyp/-version, Betriebssystem und ggf. weitere technische
@@ -79,8 +83,8 @@ export default function DatenschutzPage() {
               Webseite.
             </p>
             <p className="text-xs text-muted">
-              Hinweis: Wenn du deinen Hostinganbieter kennst (z. B. Vercel),
-              kannst du ihn hier ergänzen.
+              Hosting: Vercel Inc. (Bereitstellung/Hosting der Webseite). Domain:
+              United Domains (Registrar/DNS-Verwaltung).
             </p>
           </div>
 

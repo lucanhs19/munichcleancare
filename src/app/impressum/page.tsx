@@ -40,18 +40,19 @@ export default function ImpressumPage() {
               Telefon: {site.phoneDisplay}
               <br />
               E-Mail:{" "}
-              <span className="text-foreground">
-                [folgt]
-              </span>
+              <a
+                className="text-foreground hover:underline"
+                href={`mailto:${site.email}`}
+              >
+                {site.email}
+              </a>
             </p>
 
             <p>
               <span className="text-foreground font-medium">
                 Umsatzsteuer-ID:
               </span>{" "}
-              <span className="text-foreground">
-                [folgt]
-              </span>
+              <span className="text-foreground">Wird nachgereicht.</span>
             </p>
           </div>
 
